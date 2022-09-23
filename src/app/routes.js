@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, withRouter } from "react-router-dom";
+import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 
 import { Home } from "../pages/home";
 import { Portfolio } from "../pages/portfolio";
@@ -25,6 +25,7 @@ const AnimatedSwitch = withRouter(({ location }) => (
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={ContactUs} />
         <Route path="*" component={Home} />
+        <Redirect to="/" />
       </Switch>
     </CSSTransition>
   </TransitionGroup>
