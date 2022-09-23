@@ -21,25 +21,28 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "about about my self",
-    aboutme: "I’m Shaharyar Malik  _ Full stack devloper, learning Web3.0 technologies. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About my self",
+    aboutme: "ELectrical Engineer and a MERN stack developer trying to seek and mantain full-time position that offers professional challenges utilizing skills, excellent timemanagement & problem solving skills.",
 };
 const worktimeline = [
-    // {
-    //     jobtitle: "Designer of week",
-    //     where: "YAdfi",
-    //     date: "2020",
-    // },
-    // {
-    //     jobtitle: "Designer of week",
-    //     where: "Jamalya",
-    //     date: "2019",
-    // },
-    // {
-    //     jobtitle: "Designer of week",
-    //     where: "ALquds",
-    //     date: "2019",
-    // },
+    {
+        jobtitle: "Advisor Technical",
+        where: "Society For The Promotion Of Science, Engineering & Technology",
+        date: "Sept, 2021 - Sept 2022",
+        link: "https://www.facebook.com/sentecneduet"
+    },
+    {
+        jobtitle: "Director Technical",
+        where: "IEEE Student Branch NEDUET",
+        date: "March, 2020 - March 2021",
+        link: "https://www.facebook.com/IEEENEDUET"
+    },
+    {
+        jobtitle: "Director Robotics & IT",
+        where: "Society For The Promotion Of Science, Engineering & Technology",
+        date: "Sept, 2020 - Sept 2021",
+        link: "https://www.facebook.com/sentecneduet"
+    },
 ];
 
 const skills = [{
@@ -86,25 +89,25 @@ const dataportfolio = [
         link: "https://mperc.sentec.live/",
     },
     {
-        img: Sentec,
-        desctiption: "Official Website of Society For The Promotion Of Science, Engineering & Technology",
-        link: "https://www.sentec.live/",
-    },
-    {
         img: ShoeStore,
         desctiption: "Shoe Store Web App with React Router",
         link: "https://malik-shoestore.surge.sh/",
     },
     {
-        img: CovidImage,
-        desctiption: "Covid-19 tracker using React, Chartjs & MaterialUI",
-        link: "https://covid19statswebsite.netlify.com/",
+        img: Sentec,
+        desctiption: "Official Website of Society For The Promotion Of Science, Engineering & Technology",
+        link: "https://www.sentec.live/",
     },
     {
         img: Imagess,
         desctiption: "Expense Tracker App with React",
         link: "https://react-expense-tracker-malik1255.surge.sh/",
     },
+    {
+        img: CovidImage,
+        desctiption: "Covid-19 tracker using React, Chartjs & MaterialUI",
+        link: "https://covid19statswebsite.netlify.com/",
+    }
 ];
 
 const contactConfig = {

@@ -46,7 +46,7 @@ export const About = () => {
                   return (
                     <tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
+                      <td><a target="_blank" href={data.link}>{data.where}</a></td>
                       <td>{data.date}</td>
                     </tr>
                   );
