@@ -3,6 +3,8 @@ import CovidImage from './assets/images/covid.png';
 import ShoeStore from './assets/images/shoestore.png';
 import Sentec from './assets/images/sentec.png';
 import Mperc from './assets/images/mperc.png';
+import Mernday from './assets/images/mernday.png';
+
 const logotext = "PORTFOLIO";
 const meta = {
     title: "Shaharyar Malik",
@@ -10,11 +12,11 @@ const meta = {
 };
 
 const introdata = {
-    title: "I’m Shaharyar Malik",
+    title: "This is Shaharyar Malik",
     animated: {
-        first: " love coding",
-        second: " learn modern technologies",
-        third: "and contribute",
+        first: " love programming",
+        second: " learning modern Web technologies",
+        third: "and want to contribute to open source",
     },
     description: "I’m Shaharyar Malik  _ Full stack devloper, learning Web3.0 technologies",
     your_img_url: "https://avatars.githubusercontent.com/u/57074705?s=400&u=b639fb29c358dfada9b21bfd775f1254b6f589d7&v=4",
@@ -89,10 +91,11 @@ const dataportfolio = [
         link: "https://mperc.sentec.live/",
     },
     {
-        img: ShoeStore,
-        desctiption: "Shoe Store Web App with React Router",
-        link: "https://malik-shoestore.surge.sh/",
+        img: Mernday,
+        desctiption: "Mernday React with Firebase",
+        link: "https://roadtofirebase-ae0cc.web.app/",
     },
+
     {
         img: Sentec,
         desctiption: "Official Website of Society For The Promotion Of Science, Engineering & Technology",
@@ -107,6 +110,10 @@ const dataportfolio = [
         img: CovidImage,
         desctiption: "Covid-19 tracker using React, Chartjs & MaterialUI",
         link: "https://covid19statswebsite.netlify.com/",
+    }, {
+        img: ShoeStore,
+        desctiption: "Shoe Store Web App with React Router",
+        link: "https://malik-shoestore.surge.sh/",
     }
 ];
 
