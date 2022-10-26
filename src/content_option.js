@@ -20,7 +20,7 @@ const introdata = {
     },
     description: "I’m Shaharyar Malik  _ Full stack devloper, learning Web3.0 technologies",
     // your_img_url: "https://avatars.githubusercontent.com/u/57074705?s=400&u=b639fb29c358dfada9b21bfd775f1254b6f589d7&v=4",
-    your_img_url: "https://drive.google.com/file/d/1R4-OVQZ64yXSwRafB1PVWIhIfZb1PZKB/view?usp=sharing",
+    // your_img_url: "https://drive.google.com/file/d/1R4-OVQZ64yXSwRafB1PVWIhIfZb1PZKB/view?usp=sharing",
 };
 
 const dataabout = {
